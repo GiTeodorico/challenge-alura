@@ -1,0 +1,1 @@
+Esse projeto foi uma Challenge criada pela Alura para desenvolver melhor o nosso domínio de JavaScript. Nessa Challenge tivemos que criar um codificador e decodificador e trabalhar com JS, HTML e CSS.
