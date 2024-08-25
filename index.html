@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge Alura</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Kalnia+Glaze:wght@100..700&family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Kalnia+Glaze:wght@100..700&family=Libre+Barcode+39+Text&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Libre+Bodoni:ital,wght@1,400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="apresentacao__conteudo">
+    <header>
+            <h1 class="texto__header">CODIFICADOR &</h1>
+            <h1 class="texto__header__dois">Decodificador:</h1>
+    </header>
+</section>
+
+<main>
+    <section class="apresentacao__conteudo">
+        <textarea class="mensagem" cols="20" rows="10"></textarea> 
+       
+        <div class="botao">
+            <button class="botao_copiar" onclick="botao_copiar()">Copiar</button>
+        </div>
+
+        <div class="informacao">
+            <h6>Apenas letras minúsculas e sem acento.</h6>
+        </div> 
+    </section>
+
+    
+
+    <section class="apresentacao__conteudo">
+        <textarea class="text_area" cols="41" rows="4" placeholder="Digite seu texto."></textarea>
+
+        <div class="botao">
+            <button class="botao_cripto" onclick="botao_cripto()">Criptografar</button>
+            <button class="botao_descrip" onclick="botao_descrip()">Descriptografar</button>
+        </div>
+        
+    </section>
+
+</main>
+    <section class="apresentacao__conteudo">
+        <footer class="rodape">
+            <h1>Desenvolvido por Asys.</h1>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.libre-bodoni {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    box-sizing: border-box;
+    background-color: #FDFAF6;
+    text-align: center;
+
+    background-image: url(./imagem/pngegg.png), url(./imagem/pngegg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 24%, 24%;
+    background-position: left, right;
+    background-attachment: fixed;
+}
+
+.apresentacao__conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto__header {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 6rem;
+    color: #254336;
+    text-shadow: 2px 2px 5px #FFFFD0;
+    line-height: 10%;
+    padding-top: 4%;
+    text-align: center;
+
+}
+
+.texto__header__dois {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    color: #254336;
+    text-shadow: 2px 2px 5px #FFFFD0;
+    padding-bottom: 1%;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.mensagem {
+    border-radius: 3px;
+    border-color: #064420;
+    border-width: 4px;
+    background-color: #E4EFE7;
+    width: 450px;
+    padding: 30px;
+    height: 150px;
+    margin: auto;
+    align-items: center;
+    font-size: 1.56rem;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.text_area {
+    border-radius: 3px;
+    border-color: #064420;
+    border-width: 4px;
+    background-color: #E4EFE7;
+    text-transform: lowercase;
+    width: 450px;
+    padding: 1.87rem;
+    margin: auto;
+    height: 150px;
+    font-size: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.informacao {
+    text-align: center;
+    font-size: 30px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #E7FBE6;
+    color: #064420;
+    padding-bottom: 10px;
+    letter-spacing: .1rem;
+}
+
+.botao_cripto {
+    border-radius: 10%;
+    border-color: #064420;
+    border-width: 3px;
+    margin: 7px;
+    width: 250px;
+    background-color: #C9DABF;
+    gap: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 3px #6B8A7A;
+    padding: 16px;
+    border-radius: 8px;
+    letter-spacing: .1rem;
+}
+
+.botao_descrip {
+    border-radius: 10%;
+    border-color: #064420;
+    border-width: 3px;
+    margin: 20px;
+    width: 250px;
+    background-color: #C9DABF;
+    gap: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 3px #6B8A7A;
+    padding: 16px;
+    border-radius: 8px;
+    letter-spacing: .1rem;
+}
+
+.botao_copiar {
+    border-radius: 10%;
+    border-color: #064420;
+    border-width: 3px;
+    margin: 7px;
+    width: 250px;
+    background-color: #C9DABF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 3px #6B8A7A;
+    padding: 16px;
+    border-radius: 8px;
+    letter-spacing: .1rem;
+}
+
+.botao_copiar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.botao_cripto:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.botao_descrip:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+::placeholder {color: #6B8A7A;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 3px white;
+    text-align: center;
+}
+    .text_area:focus {
+        outline: none;
+    }
+
+.rodape {
+    background-color: #C9DABF;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #254336;
+    text-shadow: 2px 2px 5px #E4EFE7;
+    margin-top: 2%;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao__conteudo {
+        width: auto;
+        flex-direction: column;
+        padding: 5%;
+    }
+}
+
+
+
+
